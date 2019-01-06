@@ -29,9 +29,12 @@ public class SmartLilly {
 
         if (totalMoneySpend >= washingMachine) {
             n = totalMoneySpend - washingMachine;
+            
             System.out.printf("Yes! %.2f", n);
-        } else {
+        } 
+        else {
             m = washingMachine - totalMoneySpend;
+            
             System.out.printf("No! %.2f", m);
         }
     }
